@@ -2,6 +2,17 @@
 
 Just some layouts for Zellij that I find useful in my workflows.
 
+## How to use
+
+To use these layouts, create `.kdl` files inside your `.config/zellij/layouts` directory. Once they're there add the following to your `.bashrc` or `.zshrc` file.
+
+```zsh
+alias zj="zellij"                                                     # opens zellij without a layout
+alias zjd="zellij --layout ~/.config/zellij/layouts/desktop.kdl"      # desktop layout for zellij
+alias zjl="zellij --layout ~/.config/zellij/layouts/laptop.kdl"       # laptop layout for zellij
+alias zjdo="zellij --layout ~/.config/zellij/layouts/devops.kdl"      # devops layout for zellij
+```
+
 ## Desktop
 
 This layout provides 3 windows. The main window that opens [Lazyvim](https://www.lazyvim.org/) witin the directory you started. To the right of that, a pane starts with [Claude Code](https://code.claude.com/docs/en/overview). Below both just a plain terminal window.
