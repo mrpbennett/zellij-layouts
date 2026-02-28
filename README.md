@@ -133,9 +133,9 @@ layout {
 The beauty of Zellij and I am sure this is the case for tmux. You can stack the panes, for example with the AI panes you could stack differents agents, allowing you to cycle between different agents or the same one so you can work in different git worktrees. Example:
 
 ```kdl
-pane stacked=true name="terminal" size="65%" {
+pane stacked=true name="AI" {
   pane name="Claude Code" command="claude" focus=true
-  pane name="OpenCode" command="opencode" focus=true
-  pane name="Codex" command="codex" focus=true
+  pane name="OpenCode" command="opencode"
+  pane name="Codex" command="codex"
 }
 ```
