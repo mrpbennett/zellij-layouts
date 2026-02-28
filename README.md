@@ -49,7 +49,7 @@ layout {
 
 This is my favourite layout. This provides 4 panes. The main pane starts with Lazyvim this spans across the whole window with about 60% height. Below that there ae 3 panes. Similar to the desktop layout there is a Claude Code pane. To the left of that you have 2 panes that are stacked. One that starts with [K9s](https://k9scli.io/) then a plain terminal window.
 
-![devops](assets/images/devops_layout.png)
+![devops](assets/imgs/devops_layout.png)
 
 ```kdl
 layout {
@@ -97,7 +97,7 @@ layout {
 
 This layout is a replica of the Desktop layout, minus the bottom terminal pane.
 
-![laptop](assets/images/laptop_layout.png)
+![laptop](assets/imgs/laptop_layout.png)
 
 ```kdl
 layout {
